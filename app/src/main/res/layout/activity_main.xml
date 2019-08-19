@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:weightSum="8"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <EditText
+        android:layout_margin="5dp"
+        android:id="@+id/edt_phone"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:hint="Enter phone no"
+        android:layout_weight="1"/>
+    <Button
+        android:layout_margin="5dp"
+        android:padding="2dp"
+        android:id="@+id/call"
+        android:background="#4EAC52"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="CALL"
+        android:layout_weight="1"/>
+    <Button
+     android:layout_margin="5dp"
+        android:id="@+id/camera"
+        android:background="#4EAC52"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="CAMERA"/>
+    <Button
+        android:layout_margin="5dp"
+        android:id="@+id/caontact"
+        android:background="#4EAC52"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="CONTACT"/>
+    <Button
+        android:layout_margin="5dp"
+        android:padding="2dp"
+        android:id="@+id/browser"
+        android:background="#4EAC52"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="BROWSER"/>
+    <Button
+        android:layout_margin="5dp"
+        android:padding="2dp"
+        android:id="@+id/callog"
+        android:background="#4EAC52"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="CALL LOG"/>
+    <Button
+        android:layout_margin="5dp"
+        android:id="@+id/galery"
+        android:background="#4EAC52"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="GALERY"/>
+    <Button
+        android:layout_margin="5dp"
+        android:id="@+id/diaplad"
+        android:background="#4EAC52"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="DIALPAD"/>
+
+
+
+</LinearLayout>

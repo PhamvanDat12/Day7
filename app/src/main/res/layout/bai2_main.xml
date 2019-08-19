@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true">
+    <ImageView
+        android:id="@+id/img_anh"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:layout_marginTop="50dp"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/ab"/>
+    <LinearLayout
+        android:paddingTop="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_chonanh"
+            android:layout_margin="20dp"
+            android:text="Chọn ảnh"
+            android:layout_width="130dp"
+            android:layout_height="120dp" />
+        <Button
+            android:id="@+id/btn_share"
+            android:layout_margin="20dp"
+            android:text="chia sẻ"
+            android:layout_width="130dp"
+            android:layout_height="120dp" />
+    </LinearLayout>
+</LinearLayout>
